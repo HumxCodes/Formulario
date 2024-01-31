@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <meta charset="UTF-8">
+    <style>
+        /* Estilo para o quadrado em volta do formulário */
+        .formulario {
+            border: 2px solid black; /* Defina a cor e a largura da borda aqui */
+            padding: 20px; /* Espaçamento interno para o conteúdo dentro do quadrado */
+            width: 400px; /* Largura do quadrado */
+            margin: 0 auto; /* Centralizar o quadrado na página horizontalmente */
+        }
+
+        /* Estilo para o corpo da página */
+        body {
+            background-color: white; /* Fundo preto */
+            color: black; /* Texto */
+        }
+
+        /* Estilo para o formulário (fundo branco e texto preto) */
+        form {
+            background-color: white; /* Fundo branco */
+            color: black; /* Texto preto */
+            padding: 20px; /* Espaçamento interno para o conteúdo dentro do formulário */
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Preencha o Formulário Abaixo</h1>
+        <img src="https://i.gifer.com/origin/c5/c5aac44167895a9390cd2a24ffea6830_w200.gif" width="200" height="200">
+    </center>
+
+        <div class="formulario"> <!-- Adicione a classe "formulario" para aplicar o estilo -->
+            <form action="insere.php" method="post">
+                Nome<br>
+                <input type="text" placeholder="Zé da Manga" size="35" maxlength="45"><br><br>
+                Telefone<br>
+                <input type="text" placeholder="(31) 911111111" size="35" maxlength="15"><br><br>
+                E-mail<br>
+                <input type="text" placeholder="Claudio696@gmail.com" size="35" maxlength="40"><br><br>
+                Data de Nascimento<br>
+                <input type="date"><br><br>
+                Gênero<br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino ♂️</label>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">Feminino ♀️</label><br><br>
+                 Estado<br>
+            <select name="estado">
+               <option value="AC">Acre</option>
+               <option value="AL">Alagoas</option>
+               <option value="AP">Amapá</option>
+               <option value="AM">Amazonas</option>
+               <option value="BA">Bahia</option>
+               <option value="CE">Ceará</option>
+               <option value="ES">Espirito Santo</option>
+               <option value="GO">Goiás</option>
+               <option value="MA">Maranhão</option>
+               <option value="MT">Mato Grosso</option>
+               <option value="MS">Mato Grosso do Sul</option>
+               <option value="MG">Minas Gerais</option>
+               <option value="PA">Pará</option>
+               <option value="PB">Paraíba</option>
+               <option value="PR">Paraná</option>
+               <option value="PI">Piauí</option>
+               <option value="RJ">Rio de Janeiro</option>
+               <option value="RN">Rio Grande do Norte</option>
+               <option value="RS">Rio Grande do Sul</option>
+               <option value="RO">Rondônia</option>
+               <option value="RR">Roraima</option>
+               <option value="RO">Rondônia</option>
+               <option value="SC">Santa Catarina</option>
+               <option value="SP">São Paulo</option>
+               <option value="SE">Sergipe</option>
+               <option value="TO">Tocantins</option>
+               <option value="DF">Distrito Federal</option>
+            </select><br>
+              <br>
+                <input type="submit" value="OK 👍" style="font-size: 20px;">
+            </form>
+        </div>
+
+    <br><br><br><br>
+    <footer>
+      <!-- <p>Autor: Jean Soares</p>
+        <p>Criação do site: 05/10/2023</p>
+        <p>Versão: 1.1</p> -->
+        <p>Copyright © 2023. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
