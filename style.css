@@ -1,4 +1,24 @@
 html {
   height: 100%;
   width: 100%;
-}
+
+      /* Estilo para o quadrado em volta do formulário */
+      .formulario {
+          border: 2px solid black; /* Defina a cor e a largura da borda aqui */
+          padding: 20px; /* Espaçamento interno para o conteúdo dentro do quadrado */
+          width: 400px; /* Largura do quadrado */
+          margin: 0 auto; /* Centralizar o quadrado na página horizontalmente */
+      }
+
+      /* Estilo para o corpo da página */
+      body {
+          background-color: white; /* Fundo preto */
+          color: black; /* Texto */
+      }
+
+      /* Estilo para o formulário (fundo branco e texto preto) */
+      form {
+          background-color: white; /* Fundo branco */
+          color: black; /* Texto preto */
+          padding: 20px; /* Espaçamento interno para o conteúdo dentro do formulário */
+      }
